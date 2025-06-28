@@ -171,15 +171,19 @@ Before running `seed.sql`, ensure that:
    CREATE EXTENSION IF NOT EXISTS "pgcrypto";
 
 ⚙️ How to Use
+
 **Connect to your PostgreSQL database:**
+
 bash
 - psql -U your_username -d your_database
 
 **Run the seed script:**
+
 bash
-\i path/to/seed.sql
+-\i path/to/seed.sql
 
 **Verify data:**
+
 sql
-SELECT * FROM users;
-SELECT * FROM properties;
+-SELECT * FROM users;
+-SELECT * FROM properties;
