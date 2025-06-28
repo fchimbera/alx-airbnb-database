@@ -56,3 +56,4 @@
 </table>
 
 ## ER Diagram
+![ER Diagram](https://raw.githubusercontent.com/fchimbera/alx-bnb-database/main/ERD/erd.png)
