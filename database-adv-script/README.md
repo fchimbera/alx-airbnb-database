@@ -40,6 +40,28 @@ This file contains advanced SQL queries utilizing subqueries on the Airbnb datab
 
 These queries are intended for learning and demonstrating advanced SQL subquery techniques, useful for data analysis and reporting.
 
+
+# aggregation_and_window_functions.sql
+
+This file contains advanced SQL queries demonstrating the use of aggregation and window functions on the Airbnb database. The queries showcase techniques for summarizing data and performing calculations across sets of rows.
+These techniques are essential for performing complex data analysis and generating insightful reports from relational databases.
+## Contents
+
+- **Aggregate Functions**: Use functions like COUNT, SUM, AVG, MIN, and MAX to summarize data.
+- **GROUP BY**: Group data to perform aggregations on subsets of records.
+- **HAVING**: Filter groups based on aggregate conditions.
+- **Window Functions**: Apply functions such as ROW_NUMBER, RANK, DENSE_RANK, and moving averages to analyze data across rows related to the current row.
+
+## Usage
+
+1. Ensure you have access to the Airbnb database schema.
+2. Run the queries in `aggregation_and_window_functions.sql` using your preferred SQL client or command-line tool.
+
+## Purpose
+
+These queries are intended for learning and demonstrating advanced SQL aggregation and window function techniques, useful for data analysis and reporting.
+
+
 ## Author
 
 Tanjiro_pc
