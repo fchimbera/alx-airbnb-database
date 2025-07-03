@@ -22,7 +22,9 @@ JOIN
 JOIN 
     Property p ON b.property_id = p.property_id
 LEFT JOIN 
-    Payment pay ON b.booking_id = pay.booking_id;
+    Payment pay ON b.booking_id = pay.booking_id
+WHERE 
+    b.status = 'confirmed';
 
 -- This query analyzes the performance of the above query by using `EXPLAIN ANALYZE`. It provides insights into how the database executes the query, including the time taken for each operation and whether indexes are being utilized effectively.
 -- The `EXPLAIN ANALYZE` command will show the execution plan and performance metrics
