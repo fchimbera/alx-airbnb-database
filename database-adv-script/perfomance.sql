@@ -24,7 +24,8 @@ JOIN
 LEFT JOIN 
     Payment pay ON b.booking_id = pay.booking_id
 WHERE 
-    b.status = 'confirmed';
+    b.status = 'confirmed'
+    AND p.payment_date IS NOT NULL;
 
 -- This query analyzes the performance of the above query by using `EXPLAIN ANALYZE`. It provides insights into how the database executes the query, including the time taken for each operation and whether indexes are being utilized effectively.
 -- The `EXPLAIN ANALYZE` command will show the execution plan and performance metrics
